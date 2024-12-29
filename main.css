@@ -23,25 +23,40 @@ a {
 .box {
   width: 1280px;
   max-width: 1280px;
-  height: 3000px;
+  height: fit-content;
   padding-top: 70px;
   margin: 0px auto;
 }
 .box1 {
   display: flex;
 }
-
-.intro {
+.box2 {
+  margin: auto 20px;
+}
+.box2_1 {
+  margin: 20px 0px;
+  font-size: 20px;
 }
 
-.humanimg {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+/* 메인 페이지 네비게이션바 - 로그인 아이콘 */
+.bi-person-fill {
+  width: 30px;
+  height: 30px;
 }
+.bi-person-fill:active {
+  color: white;
+}
+
+/* 메인 페이지 네비게이션바 - who am I */
+.clickwho {
+  color: white;
+}
+.clickwho:hover {
+  text-decoration: overline;
+}
+
+/* 메인 페이지 사진 */
 .aiimg {
   width: 50%;
-  object-fit: cover;
-  border-radius: 50%;
   padding: 30px;
 }

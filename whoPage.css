@@ -1,0 +1,15 @@
+.boxwrap {
+  margin: 20px;
+}
+.buttonstyle {
+  padding: 20px 50px;
+  border-radius: 10px;
+  border: 0px;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: black;
+}
+.buttonstyle:hover {
+  background-color: grey;
+}
